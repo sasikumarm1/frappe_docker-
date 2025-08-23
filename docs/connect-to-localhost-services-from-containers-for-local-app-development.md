@@ -1,3 +1,5 @@
+docker compose down
+docker compose up -d
 Add following to frappe container from the `.devcontainer/docker-compose.yml`:
 
 ```yaml

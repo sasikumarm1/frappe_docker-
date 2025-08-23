@@ -1,0 +1,6 @@
+{
+  "db_name": "mysite_db",
+  "db_password": "root",
+  "db_host": "mariadb",
+  "db_port": 3306
+}

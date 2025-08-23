@@ -43,7 +43,7 @@ services:
     volumes:
       - sites:/home/frappe/frappe-bench/sites
     ports:
-      - "8081:8080"
+      - "8080:8080"
   port-site-3:
     image: frappe/erpnext:v14.11.1
     deploy:
@@ -58,7 +58,7 @@ services:
     volumes:
       - sites:/home/frappe/frappe-bench/sites
     ports:
-      - "8082:8080"
+      - "8080:8080"
 ```
 
 Notes:
