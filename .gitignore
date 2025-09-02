@@ -28,3 +28,19 @@ venv
 
 # NodeJS
 node_modules
+
+# Ignore sensitive data
+sites/*/private/
+sites/*/locks/
+sites/*/logs/
+sites/*/backups/
+sites/*/public/files/
+sites/*/public/backups/
+
+# Ignore compiled files
+__pycache__/
+*.pyc
+
+# Ignore docker volumes if any
+volumes/
+
